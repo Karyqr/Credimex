@@ -1,0 +1,103 @@
+/* Brenda Karina Recinos Quezada
+Matrícula: ES1611306203
+Grupo: DS-DPW1-2102-B2-003*/
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  background-color: #c9cfd8;
+}
+/* estilos de menú superior*/
+#header{
+  background-color: #05a146;
+  margin: auto;
+  width: 100%;
+  height: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav .logo {
+  width: 120px;
+  height: 60px;
+}
+
+.nav{
+  width: 100;
+  height: 60px;
+}
+
+ul li{
+  list-style: none;
+  min-width: 250px;
+}
+
+.nav li a{
+  background-color: #05a146;
+  color: white;
+  text-decoration: none;
+  padding: 20px 15px;
+  display: block;
+  text-align: center;
+}
+
+.nav li a:hover{
+  background-color: #4482d0;
+}
+
+.nav > li{
+  float: left;
+}
+
+.nav li ul{
+  display: none;
+  position: absolute;
+  min-width: 140px;
+
+}
+
+.nav li:hover > ul{
+  display: block;
+}
+
+.nav li ul li{
+  position: relative;
+}
+
+.nav li ul li ul{
+  right: -140px;
+  top: 0px;
+}
+
+
+
+/* formato para contenido*/
+#register h1{
+  color: #006394;
+  padding: 120px;
+  text-align: center;
+}
+
+#register p{
+  color: #006394;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+
+/* formato para footerr*/
+.footer {
+  background-color: #05a146;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer p {
+  color: white;
+  font: 100% sans-serif;
+}
